@@ -1,0 +1,25 @@
+id,question,gold,prediction,retrieved_ids,raw_output
+Q01,A PSU undergraduate has a term GPA of 2.30 and a PSU cumulative GPA of 2.10. Do both numbers satisfy the published GPA thresholds for good academic standing?,YES,NO,S01-E1;S01-E2;S02-E2,NO
+Q02,A PSU undergraduate on academic warning earns a term GPA of 2.30 but still has a cumulative PSU GPA of 1.90. Does the term GPA by itself automatically return the student to good standing?,NO,NO,S01-E1;S01-E2;S01-E3,NO
+Q03,A student on academic warning wants to take 17 credits and has asked an academic advisor for an exception. Will that specific advisor approve the request?,INSUFFICIENT_INFO,NO,S01-E3;S01-E2;S04-E2,NO
+Q04,"An undergraduate earned an F in a PSU course, repeats the same course at PSU for an A-F grade, and submits the required repeat notice. Does the published undergraduate repeat policy allow excluding the first F from the GPA calculation?",YES,NO,S02-E2;S02-E1;S02-E3,NO
+Q05,An undergraduate earned a C in a PSU course and repeats it. Does the repeat policy allow removing the original C from GPA calculation under the D/F replacement rule?,NO,NO,S02-E1;S02-E2;S03-E1,NO
+Q06,An undergraduate submitted the Notice of Repeated Course yesterday. Will this undergraduate’s official GPA be recalculated within two business days of submitting the notice?,INSUFFICIENT_INFO,NO,S02-E3;S02-E2;S01-E1,NO
+Q07,Does a PSU Pass (P) grade carry course credit without being included in GPA calculation?,YES,YES,S03-E1;S02-E2;S02-E1,YES
+Q08,Can a PSU student use credit from an audited course to fulfill degree requirements under the published grading rules?,NO,NO,S03-E2;S03-E3;S05-E3,NO
+Q09,A particular graduate program requires a seminar. Will that program accept a P instead of a letter grade for the seminar?,INSUFFICIENT_INFO,NO,S04-E3;S02-E2;S02-E3,NO
+Q10,An undergraduate has 18 Pass credits among the final 45 PSU credits of a bachelor degree. Does that number fall within the published maximum of 20 Pass credits in the final 45?,YES,NO,S04-E1;S04-E2;S03-E3,NO
+Q11,An undergraduate plans to use 23 Pass credits within the final 45 PSU credits of a bachelor degree. Is 23 within the published limit?,NO,NO,S04-E1;S04-E2;S01-E3,NO
+Q12,A student earned Pass credit in a prerequisite and asked their department to allow an exception. Will the department grant this particular request?,INSUFFICIENT_INFO,NO,S04-E2;S07-E1;S05-E3,NO
+Q13,"For a regular fall-term course dropped during week two, does PSU publish a 70% tuition refund percentage before applicable drop charges and other account adjustments?",YES,NO,S05-E2;S05-E1;S05-E3,NO
+Q14,"For a regular fall-term course dropped during week five, does the published schedule give a 20% tuition refund?",NO,NO,S05-E1;S05-E3;S05-E2,NO
+Q15,"A student drops a fall-term class in week two that originally cost $2,000. Will exactly $1,400 be deposited into that student’s bank account?",INSUFFICIENT_INFO,NO,S05-E1;S05-E3;S06-E1,NO
+Q16,"Before the term begins, a waitlisted student receives an email that a seat opened. Does the published process give them 24 hours to claim that seat?",YES,YES,S06-E1;S05-E3;S06-E2,YES
+Q17,"Under the PSU waitlist process, is a student automatically registered as soon as a seat becomes available?",NO,NO,S06-E1;S07-E2;S07-E1,NO
+Q18,A student attends the first meeting of a full class after term starts and requests instructor permission to enroll. Will this instructor grant permission?,INSUFFICIENT_INFO,NO,S06-E2;S07-E1;S06-E1,NO
+Q19,"For a closed course that does not offer a waitlist, do PSU registration rules allow a possible addition through instructor or department approval on a Special Registration Form?",YES,YES,S07-E1;S07-E2;S06-E1,YES
+Q20,"If a full PSU course has no waitlist option, is every student guaranteed the ability to join a waitlist in the Registration Hub?",NO,NO,S07-E2;S06-E1;S07-E1,NO
+Q21,A student is requesting an override for a specific closed class. Will the department approve this student’s particular request?,INSUFFICIENT_INFO,NO,S07-E1;S05-E3;S07-E3,NO
+Q22,"According to PSU financial-aid eligibility guidance, does Federal Work Study require at least six credits of enrollment?",YES,YES,S08-E1;S08-E3;S08-E2,YES
+Q23,"Under PSU’s published financial-aid eligibility policy, may a student appeal eligibility for a previous term that has already ended?",NO,NO,S08-E3;S08-E2;S02-E1,NO
+Q24,A Federal Work Study student reduces enrollment to five credits. Will this particular student’s employment definitely end immediately that day?,INSUFFICIENT_INFO,NO,S08-E1;S05-E3;S08-E2,NO
